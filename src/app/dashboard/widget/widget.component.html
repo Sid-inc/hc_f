@@ -1,3 +1,12 @@
-<article>
-  
+<article class="widget">
+  <div class="widget__inner">
+    <img class="widget__icon" [src]="MyPhone.icon" height="120" />
+    <h3 class="widget__title">{{ MyPhone.name }}</h3>
+    <div class="widget__info">
+      <span class="widget__state widget__state--online" *ngIf="MyPhone.state">В сети</span>
+      <span class="widget__state widget__state--offline" *ngIf="!MyPhone.state">Не в сети</span>
+      <span class="widget__time">1 hour</span>
+    </div>
+    <span class="widget__ip"><b>ip: </b>192.168.1.11</span>
+  </div>
 </article>

@@ -16,6 +16,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
+  margin-top: 0;
   margin-bottom: 8px;
   padding-left: 12px;
   text-transform: uppercase;
@@ -62,6 +63,7 @@
   padding-bottom: 4px;
   border: none;
   background-color: var(--header-background);
+  transition: background-color .2s ease;
   color: var(--color);
   cursor: pointer;
 
