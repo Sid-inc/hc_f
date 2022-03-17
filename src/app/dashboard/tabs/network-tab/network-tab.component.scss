@@ -1,0 +1,14 @@
+:host {
+  display: contents;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}

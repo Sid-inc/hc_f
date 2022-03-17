@@ -1,0 +1,25 @@
+<nav class="nav">
+  <section class="nav-block">
+    <h2 class="nav-block__title">
+      {{ title }}
+    </h2>
+    <ul class="nav-block__list">
+      <li class="nav-block__item" *ngFor="let item of navItems">
+        <button 
+          class="nav-block__action" 
+          [ngClass]="{'nav-block__action--active': item.isActive }" 
+          type="button" 
+          (click)="changeItem(item)"
+        >
+          <img
+            class="nav-block__icon"
+            [src]="item.icon"
+            width="24"
+            height="24"
+          />
+          {{ item.name }}
+        </button>
+      </li>
+    </ul>
+  </section>
+</nav>

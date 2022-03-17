@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  padding-top: 24px;
+  background-color: var(--tabs-background);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+:host {
+  display: contents;
+}

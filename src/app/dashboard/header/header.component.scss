@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  height: var(--header-height);
+  padding: 12px;
+  background-color: var(--header-background);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+}
